@@ -1,5 +1,8 @@
 package com.crislozano.mynewsapp.domain.model
 
+/**
+ * CustomResult: Sealed class that represent the result of an operation.
+ */
 sealed class CustomResult<T>(
     val errorMessage: String? = null,
     val data: T? = null

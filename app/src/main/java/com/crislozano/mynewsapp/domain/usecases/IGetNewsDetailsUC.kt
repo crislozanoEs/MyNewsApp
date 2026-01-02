@@ -8,6 +8,9 @@ import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.flow.flowOn
 
+/**
+ * IGetNewsDetailsUC: Use case that return a flow of NewsDetails
+ */
 interface IGetNewsDetailsUC {
     suspend operator fun invoke(uuid: String): Flow<CustomResult<NewsDetails>>
 }

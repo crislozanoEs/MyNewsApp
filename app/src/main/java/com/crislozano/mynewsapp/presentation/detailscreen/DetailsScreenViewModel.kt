@@ -18,7 +18,6 @@ class DetailsScreenViewModel(private val getNewsDetailsUC: IGetNewsDetailsUC): V
     fun handleIntent(intent: DetailsScreenIntent) {
         when(intent) {
             is DetailsScreenIntent.RequestNew -> { getNewsDetails(intent.uuid) }
-            DetailsScreenIntent.GoToNewsWeb -> { }
         }
     }
 
@@ -45,5 +44,4 @@ class DetailsScreenViewModel(private val getNewsDetailsUC: IGetNewsDetailsUC): V
 
 sealed class DetailsScreenIntent {
     class RequestNew(val uuid: String): DetailsScreenIntent()
-    object GoToNewsWeb: DetailsScreenIntent()
 }

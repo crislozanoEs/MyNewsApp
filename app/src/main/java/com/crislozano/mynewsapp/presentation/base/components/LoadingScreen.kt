@@ -7,6 +7,9 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 
+/**
+ * Loading Screen: Reusable screen for displaying loading states.
+ */
 @Composable
 fun LoadingScreen() {
     Box(

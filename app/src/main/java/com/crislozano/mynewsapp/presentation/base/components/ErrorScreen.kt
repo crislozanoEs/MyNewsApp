@@ -26,6 +26,13 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import com.crislozano.mynewsapp.R
 
+/**
+ * Error Screen: Reusable screen for displaying errors.
+ *
+ * @param retry A function to be executed when the retry button is clicked.
+ * @param error The error message to be displayed.
+ */
+
 @Composable
 fun ErrorScreen(retry: () -> Unit, error: String) {
     Box(modifier = Modifier

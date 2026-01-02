@@ -14,6 +14,9 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 
+/**
+ * Reusable button component to load more data.
+ */
 @Composable
 fun LoadMoreButton(
     isLoadingMore: Boolean,

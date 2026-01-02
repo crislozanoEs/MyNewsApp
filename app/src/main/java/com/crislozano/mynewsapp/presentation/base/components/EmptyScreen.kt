@@ -26,6 +26,12 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import com.crislozano.mynewsapp.R
 
+/**
+ * Empty Screen: Reusable screen for displaying empty states.
+ *
+ * @param retry A function to be executed when the retry button is clicked.
+ * @param message The message to be displayed.
+ */
 @Composable
 fun EmptyScreen(retry: () -> Unit, message: String) {
     Box(modifier = Modifier
