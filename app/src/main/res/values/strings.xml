@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyNewsApp</string>
+    <string name="retry_button_text">Retry</string>
+    <string name="title_list_of_news">Your list of News</string>
+    <string name="title_news_detail">Your News details</string>
+    <string name="default_error_text">Oops! Something happened</string>
+    <string name="default_empty_text">No news found</string>
+    <string name="source_label_text">Source: %s</string>
+</resources>
